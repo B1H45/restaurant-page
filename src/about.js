@@ -11,7 +11,7 @@ const loadAbout = function() {
     const heroContainer = document.createElement("div");
 
     heroTitle.textContent = "All about the restaurant";
-    heroBody.textContent = "Your body text here.";
+    heroBody.textContent = "Lorem ipsum dolor sit amet consectetur adipses";
     heroImg.src = "your-image.jpg";
 
     heroLeft.appendChild(heroTitle);
