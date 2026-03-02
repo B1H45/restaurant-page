@@ -10,7 +10,7 @@ const loadAbout = function() {
     const heroImg = document.createElement("img");
     const heroContainer = document.createElement("div");
 
-    heroTitle.textContent = "Your Title Here";
+    heroTitle.textContent = "All about the restaurant";
     heroBody.textContent = "Your body text here.";
     heroImg.src = "your-image.jpg";
 
