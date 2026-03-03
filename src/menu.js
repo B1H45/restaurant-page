@@ -11,7 +11,7 @@ const loadMenu = function() {
     const heroContainer = document.createElement("div");
 
     heroTitle.textContent = "Menu";
-    heroBody.textContent = "Different items here";
+    heroBody.textContent = "PRETEND THIS IS A MENU";
     heroImg.src = "your-image.jpg";
 
     heroLeft.appendChild(heroTitle);
