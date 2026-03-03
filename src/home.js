@@ -11,7 +11,7 @@ const loadHome = function() {
     const heroContainer = document.createElement("div");
 
     heroTitle.textContent = "Welcome to the restaurant!";
-    heroBody.textContent = "We're glad you could make it.";
+    heroBody.textContent = "We're glad you could make it. :)";
     heroImg.src = "your-image.jpg";
 
     heroLeft.appendChild(heroTitle);

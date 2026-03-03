@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack serve --config webpack.dev.js",
-    "deploy": "git commit -a -m \"Build commit\" && git push origin main && git checkout gh-pages2 && git add dist -f && git commit -m \"Deployment commit\" && git subtree push --prefix dist origin gh-pages2 && git checkout main"
+    "deploy": "git commit -a -m \"Build commit\" && git push origin main && git checkout gh-pages2 && git merge --no-edit && npm run build && git add dist -f && git commit -m \"Deployment commit\" && git subtree push --prefix dist origin gh-pages2 && git checkout main"
   },
   "repository": {
     "type": "git",
